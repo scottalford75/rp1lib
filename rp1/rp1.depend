@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1729380070 source:/home/pi/Development/rp1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"rp1lib.h"
+
+1728093444 /home/pi/Development/rp1/rp1.h
+	<stdint.h>
+	<stddef.h>
+	"gpiochip_rp1.h"
+
+1726964164 /home/pi/Development/rp1/rp1.c
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<unistd.h>
+	<errno.h>
+	"rp1.h"
+	"spi-dw.h"
+
+1729380632 /home/pi/Development/rp1/spi-dw.h
+	<stdio.h>
+	<stdint.h>
+
+1728789976 /home/pi/Development/rp1/gpiochip_rp1.h
+	<stdint.h>
+
+1726954667 /home/pi/Development/rp1/gpiolib.h
+	<stdint.h>
+
+1726964617 /home/pi/Development/rp1/gpiochip_rp1.c
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gpiochip_rp1.h"
+
+1727560685 source:/home/pi/Development/rp1/rp1.c
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<unistd.h>
+	<errno.h>
+	"rp1.h"
+	"gpiochip_rp1.h"
+	"spi-dw.h"
+
+1728789583 source:/home/pi/Development/rp1/gpiochip_rp1.c
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gpiochip_rp1.h"
+
+1729380897 /home/pi/Development/rp1/rp1lib.h
+	<stdint.h>
+	<stddef.h>
+	"gpiochip_rp1.h"
+	"spi-dw.h"
+
+1729380835 source:/home/pi/Development/rp1/spi-dw.c
+	<stdint.h>
+	"spi-dw.h"
+
+1729380531 source:/home/pi/Development/rp1/rp1lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<unistd.h>
+	<errno.h>
+	"rp1lib.h"
+	"gpiochip_rp1.h"
+	"spi-dw.h"
+
